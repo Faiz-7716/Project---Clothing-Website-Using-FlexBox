@@ -474,6 +474,10 @@
     .footer-end{
         font-size: small;
     }
+    .add-to-cart{
+    width: 90px;
+    height: 35px;
+}
 }
 
 @media (max-width:425px) {
