@@ -1,0 +1,599 @@
+@media (max-width: 1200px) {
+    .product-card {
+        width: 200px;
+        height: auto;
+    }
+
+    .product-cards {
+        width: 230px;
+        height: 425px;
+    }
+
+    .head-drops h3 {
+        font-size: 2.5rem;
+        font-weight: 500;
+    }
+}
+
+@media (max-width: 1024px) {
+    .vid-details p {
+        font-size: 13px;
+    }
+
+    .offer-head {
+        font-size: 2.4rem;
+    }
+
+    .navlist ul li a,
+    nav a {
+        font-size: 14px;
+    }
+
+    .image-container {
+        height: 250px;
+    }
+
+    .product-card {
+        width: 142px;
+    }
+
+    .proname {
+        font-size: 1.3rem;
+    }
+
+    .offer-container {
+        width: 140px;
+        height: 255px;
+    }
+
+    .offer-text {
+        height: 30px;
+        font-size: 15px;
+    }
+
+    .video-card video {
+        width: 100%;
+        height: 265px;
+    }
+
+    .image-holder {
+        width: 300px;
+        height: 350px;
+    }
+
+    .head-text {
+        font-size: 1.4rem;
+    }
+
+    .foot li {
+        font-size: small;
+    }
+
+    .head-drops {
+        font-size: 1.7rem;
+    }
+
+    .form-container input {
+        font-size: xx-small;
+    }
+
+    .head-drops h3 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+
+    body {
+        padding-bottom: 60px;
+    }
+
+    .nav-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 80%;
+        height: 60px;
+        background-color: rgba(255, 255, 255, 0.8);
+    }
+
+    .navend {
+        display: none;
+    }
+
+    #checkbtn {
+        display: block;
+        color: rgb(0, 0, 0);
+        padding-right: 7.5%;
+        cursor: pointer;
+        font-size: 35px;
+        text-align: center;
+    }
+
+    #logo {
+        display: none;
+    }
+
+    #logo2 {
+        display: block;
+        width: 190px;
+        height: auto;
+    }
+
+    .navlist ul {
+        width: 100%;
+        height: 78vh;
+        background-color: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(10px);
+        display: block;
+        text-align: center;
+        line-height: 50px;
+        /* padding-top: 50px; */
+        position: fixed;
+        top: 60px;
+        left: -100%;
+        transition: 0.5s linear;
+        /* z-index: 999; */
+    }
+
+    #check:checked~ul {
+        left: 0;
+    }
+
+    .nav-containers {
+        display: block;
+        z-index: 10000;
+    }
+
+    .navlist ul li {
+        display: block;
+        margin: 20px 0;
+    }
+
+    .footer-conatiner {
+        flex-direction: column;
+    }
+
+    .product-cards {
+        width: 240px;
+        height: 425px;
+    }
+
+
+    .foot {
+        height: auto;
+    }
+
+    #form-box {
+        flex-direction: column;
+    }
+
+    .feed-image {
+        max-width: 100vw;
+        width: 100%;
+    }
+
+    .feed-form {
+        max-width: 100vw;
+        width: 100%;
+        padding: 20px;
+    }
+
+    .video-card {
+        justify-content: flex-start;
+        overflow-x: auto;
+    }
+
+    .video-container {
+        flex-shrink: 0;
+        width: 200px;
+    }
+
+    .vid-details p {
+        font-size: 13px;
+    }
+
+    .cards {
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        overflow-x: auto;
+
+    }
+
+    .product-card {
+        width: 190px;
+        flex-shrink: 0;
+    }
+
+    .card-container {
+        width: 100%;
+    }
+
+    .offer-head {
+        font-size: 1.2rem;
+        padding: 5px
+    }
+
+    .offer-detail {
+        font-size: 1.2rem;
+        padding: 15px;
+
+    }
+
+    .btn-container button {
+        padding: 10px 5px;
+        margin: 13px 5px;
+    }
+
+    .head-drops {
+        font-size: 1.1rem;
+    }
+    .feed-image {
+        height: 50vh;
+    }
+    .feed-form,
+    {
+        height: 90vh;
+    }
+
+    .head-hero {
+        font-size: 1.1rem;
+    }
+
+    .head-drops img {
+        width: 60px;
+        height: 50px;
+    }
+
+    .image-holder {
+        width: 200px;
+        height: 300px;
+    }
+
+    .head-text {
+        font-size: .9rem;
+    }
+
+    .rate-details {
+        font-size: small;
+    }
+
+    #rating {
+        height: 445px;
+    }
+
+    .rate-card {
+        height: 95%;
+    }
+
+    .footlogo {
+        height: 25vh;
+    }
+
+    .logos {
+        flex-direction: column;
+    }
+
+    #form2 button {
+        width: 25%;
+    }
+
+    #form2 input[type='email'] {
+        width: 60%;
+    }
+
+    .pic {
+        width: 50px;
+        height: 50px;
+    }
+
+    .add-to-cart {
+        padding: 10px 10px;
+    }
+
+    .offer-container {
+        width: 100%;
+    }
+
+    .genders {
+        font-size: 1.4rem;
+        padding: 25px;
+    }
+
+    .gendershop a {
+        font-size: 1rem;
+    }
+
+    .head-drops h3 {
+        font-size: 1.5rem;
+    }
+
+}
+
+@media (max-width:500px) {
+    .nav-bar {
+        font-size: 20px;
+    }
+
+    .p-card img {
+        width: 20px;
+    }
+
+    .te-xt {
+        font-size: 8px;
+    }
+
+    .feed-form {
+        height: 515px;
+    }
+
+    .pp {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .pp img {
+        flex-shrink: 0;
+    }
+
+    .head-hero {
+        padding: 10px 0px;
+    }
+
+    .head-drops {
+        font-size: .9rem;
+    }
+
+    .head-text {
+        font-size: 0.6rem;
+    }
+
+    .rate-details {
+        font-size: XX-SMALL;
+    }
+
+    .pic {
+        width: 40px;
+        height: 40px;
+    }
+
+    .image-holder {
+        width: 150px;
+        height: 250px;
+    }
+
+    .cus-det {
+        font-size: small;
+    }
+
+    #rating {
+        height: 350px;
+    }
+
+    .rate-text {
+        justify-content: center;
+        padding: 45px 0px;
+    }
+
+    .gendershop a {
+        font-size: .8rem;
+    }
+
+    #form2 button {
+        font-size: xx-small;
+    }
+
+    #checkbtn {
+        font-size: 25px;
+    }
+
+    .logo {
+        height: auto;
+    }
+
+    .navlist ul {
+        top: 60px;
+    }
+
+    .genders {
+        font-size: 1.2rem;
+        padding: 15px;
+    }
+
+    .head-drops h3 {
+        font-size: 1.1rem;
+        font-weight: 600;
+    }
+
+    .product-cards {
+        width: 155px;
+        height: 305px;
+    }
+
+    .product-cards .image-container {
+        height: 175px;
+    }
+
+    .brand {
+        font-size: 12px;
+    }
+
+    .name {
+        font-size: 13px;
+    }
+
+    .price1 p{
+        font-size: 9px;
+    }
+
+    .price2 p {
+        font-size: 12px;
+    }
+    .dis p{
+        font-size: 12px;
+    }
+
+    .rev {
+        font-size: 9px;
+    }
+
+    .pro-size {
+        margin: 0px 1px;
+
+    }
+
+    .product-card {
+        width: 140px;
+    }
+
+    .video-container {
+        width: 150px;
+    }
+
+    .vidtopic {
+        padding: 0px;
+        font-size: 13px;
+        height: 40px;
+    }
+
+    .vid-details {
+        height: 165px;
+    }
+
+    .shoplink a {
+        font-size: .9rem;
+    }
+
+    .footlogo {
+        height: 25vh;
+    }
+
+    .feed-image {
+        height: 50vh;
+    }
+    .footer-end{
+        font-size: small;
+    }
+}
+
+@media (max-width:425px) {
+
+    .price p {
+        font-size: 12px;
+    }
+
+    .price1 p {
+        font-size: 10px;
+    }
+}
+
+@media (max-width:325px) {
+
+    .feed-image {
+        height: 60vh;
+    }
+
+    textarea {
+        height: 10vh;
+    }
+
+    .head-drops {
+        font-size: .8rem;
+    }
+
+    #form2 input[type='email'] {
+        padding: 4px 25px;
+    }
+
+    #form2 input[type='submit'] {
+        font-size: x-small;
+    }
+
+    .fab {
+        height: 35px;
+        width: 35px;
+        padding: 9px 0px;
+        font-size: 10px;
+    }
+
+    .blogo {
+        width: 250px;
+        height: 45px;
+    }
+
+    .head-hero {
+        font-size: .8rem;
+    }
+
+    .product-cards {
+        width: 135px;
+        height: 290px;
+    }
+
+    .brand {
+        font-size: 10px;
+    }
+
+    .name {
+        padding: 0px 0px;
+        font-size: 10px;
+    }
+
+    .price p {
+        font-size: 10px;
+    }
+
+    .rev {
+        font-size: 7px;
+    }
+
+    #logo2 {
+        width: 150px;
+    }
+
+    .head-drops h3 {
+        font-size: .8rem;
+        font-weight: 700;
+    }
+
+    .rate-details p {}
+
+    .image-holder {
+        width: 120px;
+        height: 200px;
+    }
+
+}
+
+@media (min-width:789px) (max-width:965px) {
+    .product-cards {
+
+        width: 170px;
+        height: 375px;
+    }
+
+    .price p {
+        font-size: 13px;
+    }
+
+    .price1 {
+        font-size: 11px;
+    }
+
+    .brand {
+        font-size: 13px;
+    }
+
+    .name {
+        font-size: 15px;
+    }
+
+    .product-cards .image-container {
+        height: 225px;
+    }
+
+    .rev {
+        font-size: 10px;
+    }
+
+}
