@@ -307,7 +307,12 @@
     .head-drops h3 {
         font-size: 1.5rem;
     }
-
+    .scroller{
+        padding-top: 60px;
+    }
+    .scroll {
+    animation: scroller 10s linear infinite;
+    }
 }
 
 @media (max-width:500px) {
